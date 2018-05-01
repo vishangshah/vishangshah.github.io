@@ -1,2 +1,2 @@
-# vishangshah.github.io
-Home Site !
+# Vishang Shah
+Collection of distractions !
