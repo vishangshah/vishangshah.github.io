@@ -8,7 +8,8 @@ $(document).ready(() => {
 
 function getMovies(searchText)
 {
-    axios.get('https://www.omdbapi.com?t='+searchText)
+    omdb_apikey = 'xxxxxxxx'
+    axios.get('https://www.omdbapi.com?t='+searchText+'&apikey='+omdb_apikey)
         .then((response) => {
             console.log(response);
         })
