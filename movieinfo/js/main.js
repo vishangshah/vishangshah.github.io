@@ -8,7 +8,7 @@ $(document).ready(() => {
 
 function getMovies(searchText)
 {
-    axios.get('http://www.omdbapi.com?t='+searchText)
+    axios.get('https://www.omdbapi.com?t='+searchText)
         .then((response) => {
             console.log(response);
         })
